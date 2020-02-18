@@ -1,10 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-
-export class App extends Component {
-  render() {
-    return <div>Hello World!</div>;
-  }
-}
+import App from "./components/App";
 
 ReactDOM.render(<App />, document.querySelector("#root"));
